@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --color-fundo: #FDF1DD;
+    --color-marromclr: #917c60a7;
+    --color-bege: #DDD7C5;
+    --color-azulesc: #33595E;
+    --color-cinzaesc: #373B41;
+
+    --fonte-normal: Arial, Helvetica, sans-serif;
+    --fonte-nunito: "Nunito", serif;
+    --fonte-madimi: "Madimi One", serif;
+}
+
+html, body {
+    background-color: var(--color-fundo);
+    font-family: var(--fonte-normal);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: var(--color-cinzaesc);
+    text-align: center;
+    padding-bottom: 5vh;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0px 8px 9px 6px rgba(0, 0, 0, 0.433);
+}
+
+header h1 {
+    color: var(--color-marromclr);
+    font-family: var(--fonte-madimi);
+    padding-top: 5vh;
+    text-shadow: 4px 7px 9px rgba(0, 0, 0, 0.521);
+}
+
+main {
+    background-color: var(--color-azulesc);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 9px 6px rgba(0, 0, 0, 0.433);
+    padding-bottom: 35px;
+}
+
+main a {
+    color: var(--color-marromclr);
+    font-weight: bolder;
+}
+
+main h1, h2 {
+    color: var(--color-bege);
+    font-family: var(--fonte-nunito);
+}
+
+main > p {
+    color: rgba(0, 0, 0, 0.647);
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+aside {
+    background-color: #373B41;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 9px 6px rgba(0, 0, 0, 0.318);
+}
+
+aside h1 {
+    color: var(--color-cinzaesc);
+    font-family: var(--fonte-nunito);
+    background-color: var(--color-marromclr);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    text-indent: 10px;
+    text-shadow: 4px 7px 9px rgba(0, 0, 0, 0.523);
+}
+
+footer {
+    color: var(--color-bege);
+    background-color: var(--color-cinzaesc);
+    font-family: var(--fonte-nunito);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 35px;
+}
+
+footer a {
+    color: var(--color-fundo);
+    font-weight: bolder;
+}

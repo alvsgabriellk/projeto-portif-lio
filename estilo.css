@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #d91a1a;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Altura da viewport */
+}
+
+.container {
+    display: flex; /* Ativa o flexbox */
+    justify-content: center; /* Centraliza as imagens dentro do container */
+    gap: 20px; /* Espaçamento entre as imagens */
+}
+
+img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do container */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas (opcional) */
+}
