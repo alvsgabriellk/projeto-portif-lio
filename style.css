@@ -79,6 +79,7 @@ main > p {
 }
 
 aside {
+    position: relative;
     background-color: #373B41;
     margin-top: 30px;
     border-radius: 20px;
